@@ -11178,6 +11178,7 @@ pre .code {
 .header .header-content .header-subtitle {
   font-weight: 200;
   font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
+  align-items: center;
 }
 
 .header .header-content .header-title {
