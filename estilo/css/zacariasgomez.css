@@ -10867,55 +10867,7 @@ p {
   font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1300 - 300)));
 }
 
-.icon-md {
-  font-size: 22px;
-}
 
-.icon-lg {
-  font-size: 30px;
-}
-
-.icon-xl {
-  font-size: 65px;
-}
-
-.info {
-  color: #6c757d;
-  font-size: 14px;
-}
-
-.info li {
-  padding-bottom: 8px;
-}
-
-.info span {
-  font-weight: 600;
-  font-size: 14px;
-  color: #343a40;
-}
-
-.line {
-  display: block;
-  width: 25px;
-  height: 1.5px;
-  background-color: #F85C70;
-}
-
-.breadcrumb {
-  font-size: 0.9rem;
-}
-
-.breadcrumb .breadcrumb-item a {
-  color: #212529;
-}
-
-.breadcrumb .breadcrumb-item.active {
-  color: #495057;
-}
-
-.btn-rounded {
-  border-radius: 100px;
-}
 
 .w-lg {
   min-width: 150px;
@@ -10957,45 +10909,6 @@ p {
   opacity: 0;
 }
 
-.card {
-  margin-bottom: 30px;
-}
-
-.card .card-header {
-  background: transparent;
-  border: none;
-}
-
-.card .card-header.has-icon i {
-  background: #fff;
-  position: absolute;
-  top: -28px;
-  border: 7px solid white;
-  overflow: hidden !important;
-  font-size: 35px;
-}
-
-.card .card-body {
-  font-size: 14px;
-  color: #6c757d;
-}
-
-.price-card {
-  padding: 30px;
-  border: 1px solid #dee2e6;
-}
-
-.price-card .price-card-title {
-  font-size: 30px;
-  margin-bottom: 20px;
-  opacity: .8;
-}
-
-.price-card .price-card-cost {
-  position: relative;
-  margin-bottom: 30px;
-  opacity: .8;
-}
 
 
 
