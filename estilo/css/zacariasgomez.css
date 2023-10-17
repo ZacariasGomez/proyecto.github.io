@@ -1807,9 +1807,9 @@ nav a {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
 }
 
-}
 
 li:hover {
+  
     background-color: black;
     border: 2px solid;
     color: white;
