@@ -1765,7 +1765,7 @@ p {
 }
 
 .cabezera{
- 
+     font-family: Sans-Serif;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -1791,16 +1791,16 @@ nav li {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 2px solid;
+    border: 2px solid black;
 
 }
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #340de4;
 }
 .pie{
-  color: #fff;
+  color: #340de4;
   padding: 15px 0;
   text-align: center;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
@@ -1809,7 +1809,7 @@ nav a {
 
 
 li:hover {
-  
+
     background-color: black;
     border: 2px solid;
     color: white;
