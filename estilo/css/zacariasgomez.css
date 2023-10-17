@@ -1765,7 +1765,7 @@ p {
 }
 
 .cabezera{
-     font-family: Sans-Serif;
+ 
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -1791,30 +1791,44 @@ nav li {
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 2px solid black;
+    border: 2px solid;
 
 }
 
 nav a {
     text-decoration: none;
-    color: #340de4;
+    color: #333;
 }
-.pie{
-  color: #340de4;
-  padding: 15px 0;
-  text-align: center;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+
+footer ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
+}
+footer li {
+    display: inline;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background-image: -webkit-linear-gradient(bottom, rgba(233, 220, 220, 0.7), rgba(223, 216, 216, 0.7)), url(../imgs/header.jpg);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
 }
-
-
 li:hover {
-
     background-color: black;
     border: 2px solid;
     color: white;
 }
 li a:hover{
-
   color: white;
 }
