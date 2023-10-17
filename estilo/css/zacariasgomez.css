@@ -1981,7 +1981,7 @@ p {
  
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 12px 0;
     background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
 }
@@ -2000,4 +2000,10 @@ nav li {
 nav a {
     text-decoration: none;
     color: #333;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
 }
