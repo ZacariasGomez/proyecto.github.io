@@ -1820,15 +1820,15 @@ footer li {
 footer {
     text-align: center;
     padding: 10px 0;
-    color: white;
+    color: rgb(39, 6, 224);
     background-image: -webkit-linear-gradient(bottom, rgba(233, 220, 220, 0.7), rgba(223, 216, 216, 0.7)), url(../imgs/header.jpg);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
 }
 li:hover {
     background-color: black;
     border: 2px solid;
-    color: white;
+    color: rgb(39, 6, 224);
 }
 li a:hover{
-  color: white;
+  color: rgb(39, 6, 224);
 }
