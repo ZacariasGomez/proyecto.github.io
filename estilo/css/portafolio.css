@@ -12,24 +12,48 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+.header {
+  position: relative;
+  height: 70vh;
+  min-height: 300px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/portafolio.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/portafolio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
 .cabezera{
  
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
 }
+img {
+  padding: 5px;
+}
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    text-align: right;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid;
+
 }
 
 nav a {
@@ -37,24 +61,36 @@ nav a {
     color: #333;
 }
 
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
+footer ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
 }
+footer li {
+    display: inline;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
-.proyecto {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
 }
-
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
-    color: #fff;
+    color: rgb(39, 6, 224);
+    background-image: -webkit-linear-gradient(bottom, rgba(233, 220, 220, 0.7), rgba(223, 216, 216, 0.7)), url(../imgs/header.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
 }
+li:hover {
+    background-color: black;
+    border: 2px solid;
+    color: rgb(39, 6, 224);
+}
+li a:hover{
+  color: rgb(39, 6, 224);
+}
+
